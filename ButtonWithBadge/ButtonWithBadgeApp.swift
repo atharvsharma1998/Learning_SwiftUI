@@ -11,7 +11,8 @@ import SwiftUI
 struct ButtonWithBadgeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           //ContentView()
+            swipe_up_down()
         }
     }
 }
