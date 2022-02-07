@@ -12,7 +12,8 @@ struct ButtonWithBadgeApp: App {
     var body: some Scene {
         WindowGroup {
            //ContentView()
-            swipe_up_down()
+            //swipe_up_down()
+            ContextMenu()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB75F64527A4FFD30031061A /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75F64427A4FFD30031061A /* ContextMenu.swift */; };
 		EB989C63279B403500624FF1 /* ButtonWithBadgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB989C62279B403500624FF1 /* ButtonWithBadgeApp.swift */; };
 		EB989C65279B403500624FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB989C64279B403500624FF1 /* ContentView.swift */; };
 		EB989C67279B403A00624FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB989C66279B403A00624FF1 /* Assets.xcassets */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB989C5F279B403500624FF1 /* ButtonWithBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonWithBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB75F64427A4FFD30031061A /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
+		EB989C5F279B403500624FF1 /* SwiftUILearnings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearnings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB989C62279B403500624FF1 /* ButtonWithBadgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithBadgeApp.swift; sourceTree = "<group>"; };
 		EB989C64279B403500624FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB989C66279B403A00624FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		EB989C60279B403500624FF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB989C5F279B403500624FF1 /* ButtonWithBadge.app */,
+				EB989C5F279B403500624FF1 /* SwiftUILearnings.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 				EB989C62279B403500624FF1 /* ButtonWithBadgeApp.swift */,
 				EB989C64279B403500624FF1 /* ContentView.swift */,
 				EBFE8EC3279BF24700377717 /* swipe-up-down.swift */,
+				EB75F64427A4FFD30031061A /* ContextMenu.swift */,
 				EB989C66279B403A00624FF1 /* Assets.xcassets */,
 				EB989C68279B403A00624FF1 /* Preview Content */,
 			);
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB989C5E279B403500624FF1 /* ButtonWithBadge */ = {
+		EB989C5E279B403500624FF1 /* SwiftUILearnings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB989C6D279B403A00624FF1 /* Build configuration list for PBXNativeTarget "ButtonWithBadge" */;
+			buildConfigurationList = EB989C6D279B403A00624FF1 /* Build configuration list for PBXNativeTarget "SwiftUILearnings" */;
 			buildPhases = (
 				EB989C5B279B403500624FF1 /* Sources */,
 				EB989C5C279B403500624FF1 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = ButtonWithBadge;
+			name = SwiftUILearnings;
 			productName = ButtonWithBadge;
-			productReference = EB989C5F279B403500624FF1 /* ButtonWithBadge.app */;
+			productReference = EB989C5F279B403500624FF1 /* SwiftUILearnings.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB989C5A279B403500624FF1 /* Build configuration list for PBXProject "ButtonWithBadge" */;
+			buildConfigurationList = EB989C5A279B403500624FF1 /* Build configuration list for PBXProject "SwiftUILearnings" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB989C5E279B403500624FF1 /* ButtonWithBadge */,
+				EB989C5E279B403500624FF1 /* SwiftUILearnings */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +145,7 @@
 			files = (
 				EB989C65279B403500624FF1 /* ContentView.swift in Sources */,
 				EB989C63279B403500624FF1 /* ButtonWithBadgeApp.swift in Sources */,
+				EB75F64527A4FFD30031061A /* ContextMenu.swift in Sources */,
 				EBFE8EC4279BF24700377717 /* swipe-up-down.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB989C5A279B403500624FF1 /* Build configuration list for PBXProject "ButtonWithBadge" */ = {
+		EB989C5A279B403500624FF1 /* Build configuration list for PBXProject "SwiftUILearnings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB989C6B279B403A00624FF1 /* Debug */,
@@ -335,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB989C6D279B403A00624FF1 /* Build configuration list for PBXNativeTarget "ButtonWithBadge" */ = {
+		EB989C6D279B403A00624FF1 /* Build configuration list for PBXNativeTarget "SwiftUILearnings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB989C6E279B403A00624FF1 /* Debug */,
